@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dicas para viajar</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    
+<header>
+<h1>O seu site de roteiros de viagem</h1>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="@">Notícias</a>
+    <a href="@">Curiosidades</a>
+    <a href="@">fale Conosco</a>
+</nav>
+
+</header>
+
+<main>
+    
+<h2 onclick="tela()"><li>Confira os melhores pontos turísticos para conhecer ainda em 2023</li></h2>
+<div id="conteudo"></div>
+<h2>
+    <li>Os destinos  mais populares entre os viajantes</li>
+</h2>
+
+<h2>
+    <li>Confira também a culinária local</li>
+</h2>
+
+<h2>
+    <li>Dicas de segurança para viajar</li>
+</h2>
+
+<h2>
+    <li>Dicas para economizar na viagem</li>
+</h2>
+
+</main>
+
+<footer>
+<p>Este site foi criado por Douglas Felipe, estudante de engenharia de computação pela Universidade Federal do Estado do Pará(UFPA).</p>
+</footer>
+
+<script>
+    function tela(){
+        const conteudoDIV = document.getElementById("conteudo");
+        const mensagem = "Aqui você conhecerá os melhores pontos turísticos para ir até o final do ano";
+        const paragrafo = document.createElement("p");
+        paragrafo.textContent = mensagem;
+        conteudoDIV.appendChild(paragrafo);
+
+    }
+</script>
+
+
+</body>
+</html>
